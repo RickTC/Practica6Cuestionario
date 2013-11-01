@@ -78,7 +78,6 @@
             <property name="MemberName" />
             <property name="CanFocus">True</property>
             <property name="Label" translatable="yes">DF</property>
-            <property name="Active">True</property>
             <property name="DrawIndicator">True</property>
             <property name="HasLabel">True</property>
             <property name="UseUnderline">True</property>
@@ -254,7 +253,7 @@
             <property name="Type">TextOnly</property>
             <property name="Label" translatable="yes">Terminar</property>
             <property name="UseUnderline">True</property>
-            <signal name="Clicked" handler="OnButton1Clicked" />
+            <signal name="Clicked" handler="OnTerminarClicked" />
           </widget>
           <packing>
             <property name="X">464</property>
